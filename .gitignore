@@ -1,0 +1,23 @@
+# Exclude all Python files
+*.py
+
+# Then specifically allow only your main file
+!speedsimplified.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# OS generated files
+.DS_Store
